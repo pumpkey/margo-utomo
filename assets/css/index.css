@@ -1,0 +1,698 @@
+@font-face {
+    font-family: 'Fertigo Pro';
+    src: url('../fonts/FertigoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bio Sans';
+    src: url('../fonts/BioSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bio Sans';
+    src: url('../fonts/BioSans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Bio Sans', sans-serif;
+    background: #E6E2DB;
+    color: #014851;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;    
+    z-index: 1000;
+    background: #E6E2DB;
+    color: #014851;    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #014851;
+    text-decoration: none;
+    font-family: 'Fertigo Pro', serif;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #7C6845;
+    text-decoration: none;    
+}
+
+nav ul li a.active {
+    color: #7C6845;
+    text-decoration: none;    
+}
+
+.cta {
+    font-size: 15px;
+    background: #978459;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-family: 'Fertigo Pro', sans-serif;
+    transition: 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.cta:hover {
+    background: #7C6845;    
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active,
+.dot:hover {
+    background-color: #978459;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    transform: translateX(100%);
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide.active {
+    opacity: 1;
+    transform: translateX(0);
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 72, 81, 0.5);
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.caption h1 {
+    font-family: 'Fertigo Pro', serif;
+    font-size: 50px;
+}
+
+.caption p {
+    font-family: 'Fertigo Pro', serif;
+    font-size: medium;
+    color: white;
+}
+
+#tagline {
+    text-align: center;
+    padding-bottom: 30px;
+    background: #E6E2DB;
+}
+
+.tagline-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    color: #014851;
+    font-family: 'Fertigo Pro', serif;   
+}
+
+.underline {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    width:90%; height:12px;  
+    border:solid 5px #978459;
+    border-color:#978459 transparent transparent transparent;
+    border-radius: 80%/12px 12px 0 0;
+    z-index: -1;
+}
+
+.tagline-container p {
+    font-size: 1rem;
+    color: #014851;    
+    font-family: 'Bio Sans', serif;    
+    margin-top: -20px;
+}
+
+#video-profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E6E2DB;
+    padding: 0 75px 0 75px;
+    box-sizing: border-box;
+}
+
+#video-profile video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#story {
+    text-align: center;
+    padding: 30px 20px 50px 20px;
+    background: #E6E2DB;
+}
+
+.story-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Fertigo Pro', serif;    
+}
+
+.story-container p {
+    font-size: 1.2rem;
+    color: #014851;
+    line-height: 1.6;
+    font-family: 'Bio Sans', serif;    
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #978459;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-decoration: none;    
+    border-radius: 8px;
+    transition: 0.3s;
+    font-family: 'Fertigo Pro', serif;    
+}
+
+.download-btn:hover {
+    background: #7C6845;
+    color: #E6E2DB;
+}
+
+#resort {
+    text-align: center;
+    padding: 20px 20px 60px 20px;
+    background: #f9f9f9;
+}
+
+.resort-container {
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+.resort-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.resort-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+.resort-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.resort-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.resort-content h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'Fertigo Pro', serif;
+}
+
+.resort-content p {
+    font-size: 1rem;
+    color: #014851;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.discover-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #978459;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-decoration: none;    
+    border-radius: 8px;
+    transition: 0.3s;
+    font-family: 'Fertigo Pro', serif;
+}
+
+.discover-btn:hover {
+    background: #7C6845;
+}
+
+#tour {
+    text-align: center;
+    padding: 60px 20px;
+    background: #E6E2DB;
+}
+
+.tour-container {
+    max-width: 1200px;
+    margin: -20px auto 0 auto;
+}
+
+.tour-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.tour-slider {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+}
+
+.tour-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out, opacity 0.5s;
+    opacity: 0;
+}
+
+.tour-slide:first-child {
+    opacity: 1;
+}
+
+.tour-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.tour-active {
+    opacity: 1 !important;
+}
+
+.fade {
+    animation: fadeEffect 1.5s ease-in-out;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+.tour-content {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tour-content p {
+    font-size: 1rem;
+    color: #014851;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.tour-btn {
+    align-self: flex-end;
+    display: inline-block;
+    padding: 12px 20px;
+    background: #978459;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-decoration: none;    
+    border-radius: 8px;
+    transition: 0.3s;
+    font-family: 'Fertigo Pro', serif;
+}
+
+.tour-btn:hover {
+    background: #7C6845;
+}
+
+#product {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+.product-container {
+    max-width: 1200px;
+    margin: -20px auto 0 auto;
+}
+
+.product-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.product-slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-slide {
+    flex: 0 0 calc(33.33% - 20px);
+    position: relative;
+    background: #eee;
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.product-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.product-name {    
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;    
+    font-family: 'Fertigo Pro', serif;
+}
+
+.product-slide:hover .product-overlay {
+    opacity: 1;
+}
+
+#gallery {
+    text-align: center;
+    padding: 60px 20px;
+    background: #E6E2DB;
+    overflow: hidden;
+}
+
+.gallery-container {
+    max-width: 1200px;
+    margin: -20px auto 0 auto;
+}
+
+.gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.gallery-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: gallerySlide 60s linear infinite;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.gallery-row img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@keyframes gallerySlide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+
+#visit {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+.visit-container {
+    max-width: 1200px;
+    margin: -20px auto 0 auto;
+}
+
+.visit-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.visit-box {
+    width: 45%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Fertigo Pro', serif;
+}
+
+.visit-box p {
+    font-family: 'Bio Sans', serif;
+}
+
+.visit-map iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.visit-btn {
+    margin-top: 10px;
+    background: #978459;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Fertigo Pro', serif;
+}
+
+.visit-btn:hover {
+    background: #7C6845;
+}
+
+.visit-box p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #014851;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.footer-column.about {
+    flex: 2;
+}
+
+.footer-column h4 {
+    color: #978459;
+    font-family: 'Fertigo Pro', serif;
+    font-size: 18px;
+}
+
+.footer-column p {
+    color: #E6E2DB;
+    font-family: 'Bio Sans', sans-serif;
+    font-size: 15px;
+}
+
+.footer-social {
+    width: 100%;
+    text-align: center;    
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;    
+    background-color: white;
+    color: #014851;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    background-color: #978459;
+    color: #E6E2DB;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    .tour-wrapper {
+        flex-direction: column;
+    }
+    .tour-slider, .tour-content {
+        width: 100%;
+    }
+}

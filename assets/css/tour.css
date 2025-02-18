@@ -1,0 +1,120 @@
+#tours-hero {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.tours-hero-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.tours-hero-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tours-hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    z-index: 2;    
+    font-family: 'Fertigo Pro', sans-serif;
+}
+
+#tours-description {
+    padding: 60px 20px;
+    background: #E6E2DB;
+}
+
+.tours-description {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.tours-description-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.tours-description-container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-family: 'Bio Sans', sans-serif;
+}
+
+#toggle-description {
+    display: block;
+    margin: 20px 0 0 auto;
+    padding: 10px 20px;    
+    color: #978459;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+}
+
+#toggle-description:hover {
+    color: #7C6845;
+}
+
+#hill-rooms {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+#hill-rooms .rooms-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+#hill-rooms .room-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.room-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.room-card h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Fertigo Pro', sans-serif;
+    color: #978459;
+}
+.special-facilities, .common-facilities {
+    list-style: disc;
+    padding-left: 20px;
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;    
+}
+.book-room {
+    font-size: 15px;
+    background: #978459;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-family: 'Fertigo Pro', sans-serif;
+    transition: 0.3s ease-in-out;
+    border-radius: 8px;    
+}
+
+.book-room:hover {
+    background: #7C6845;    
+}
