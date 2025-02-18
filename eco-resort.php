@@ -3,7 +3,7 @@
 <main>
     <section id="eco-hero">
         <div class="eco-hero-container">
-            <img src="assets/images/carousel1.png" alt="Eco Resort">
+            <img src="assets/images/eco-hero.jpg" alt="Eco Resort">
             <div class="overlay"></div>
             <div class="eco-hero-text">
                 <h1>Eco Resort</h1>
@@ -65,7 +65,7 @@
             <h2 data-aos="fade-up" data-aos-duration="1000"><span class="underline">Rooms</span></h2>
             <div class="rooms-wrapper">
                 <div class="room-card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
-                    <img src="assets/images/gallery1.jpg" alt="Standard Room" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                    <img src="assets/images/standard-room.jpg" alt="Standard Room" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                     <h3>Standard Room</h3>
                     <h4>In-room Amenities</h4>
                     <ul class="special-facilities">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="room-card" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
-                    <img src="assets/images/gallery1.jpg" alt="Superior Room" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                    <img src="assets/images/superior-room.jpg" style="height: 225px;" alt="Superior Room" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                     <h3>Superior Room</h3>
                     <h4>In-room Amenities</h4>
                     <ul class="special-facilities">
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <div class="room-card" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="300">
-                    <img src="assets/images/gallery1.jpg" alt="Deluxe Room" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                    <img src="assets/images/deluxe-room.jpg" alt="Deluxe Room" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                     <h3>Deluxe Room</h3>
                     <h4>In-room Amenities</h4>
                     <ul class="special-facilities">
@@ -142,16 +142,16 @@
             <div class="gallery-wrapper" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1200">
                 <div class="gallery-slider">
                     <div class="gallery-row" data-aos="fade-up" data-aos-delay="600">
-                        <img src="assets/images/carousel1.png" alt="Gallery 1">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 2">
-                        <img src="assets/images/carousel1.png" alt="Gallery 3">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 4">
+                        <img src="assets/images/eco1.jpg" alt="Gallery 1">
+                        <img src="assets/images/eco2.jpg" alt="Gallery 2">
+                        <img src="assets/images/eco3.jpg" alt="Gallery 3">
+                        <img src="assets/images/eco4.jpg" alt="Gallery 4">
                     </div>
                     <div class="gallery-row" data-aos="fade-up" data-aos-delay="800">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 1">
-                        <img src="assets/images/carousel1.png" alt="Gallery 2">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 3">
-                        <img src="assets/images/carousel1.png" alt="Gallery 4">
+                        <img src="assets/images/eco5.jpg" alt="Gallery 1">
+                        <img src="assets/images/eco6.jpg" alt="Gallery 2">
+                        <img src="assets/images/eco7.jpg" alt="Gallery 3">
+                        <img src="assets/images/eco8.jpg" alt="Gallery 4">
                     </div>
                 </div>
             </div>

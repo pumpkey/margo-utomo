@@ -3,7 +3,7 @@
 <main>
     <section id="hill-hero">
         <div class="hill-hero-container">
-            <img src="assets/images/carousel1.png" alt="Eco Resort">
+            <img src="assets/images/hill-hero.jpg" alt="Hill View Resort">
             <div class="overlay"></div>
             <div class="hill-hero-text">
                 <h1>Hill View Resort</h1>
@@ -66,7 +66,7 @@
             <h2 data-aos="fade-up" data-aos-duration="1000"><span class="underline">Rooms</span></h2>
             <div class="rooms-wrapper">
                 <div class="room-card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
-                    <img src="assets/images/gallery1.jpg" alt="Superior Twin" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                    <img src="assets/images/superior-twin.jpg" alt="Superior Twin" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                     <h3>Superior Twin</h3>
                     <h4>In-room Amenities</h4>
                     <ul class="special-facilities">
@@ -87,7 +87,7 @@
                     </div>
                 </div>                
                 <div class="room-card" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="300">
-                    <img src="assets/images/gallery1.jpg" alt="Superior Double" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
+                    <img src="assets/images/superior-double.jpg" alt="Superior Double" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
                     <h3>Superior Double</h3>
                     <h4>In-room Amenities</h4>
                     <ul class="special-facilities">
@@ -119,16 +119,16 @@
             <div class="gallery-wrapper" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1200">
                 <div class="gallery-slider">
                     <div class="gallery-row" data-aos="fade-up" data-aos-delay="600">
-                        <img src="assets/images/carousel1.png" alt="Gallery 1">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 2">
-                        <img src="assets/images/carousel1.png" alt="Gallery 3">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 4">
+                        <img src="assets/images/hill1.jpeg" alt="Gallery 1">
+                        <img src="assets/images/hill2.jpeg" alt="Gallery 2">
+                        <img src="assets/images/hill3.jpeg" alt="Gallery 3">
+                        <img src="assets/images/hill4.jpeg" alt="Gallery 4">
                     </div>
                     <div class="gallery-row" data-aos="fade-up" data-aos-delay="800">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 1">
-                        <img src="assets/images/carousel1.png" alt="Gallery 2">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 3">
-                        <img src="assets/images/carousel1.png" alt="Gallery 4">
+                        <img src="assets/images/hill5.jpg" alt="Gallery 1">
+                        <img src="assets/images/hill6.jpeg" alt="Gallery 2">
+                        <img src="assets/images/hill7.jpg" alt="Gallery 3">
+                        <img src="assets/images/hill8.jpg" alt="Gallery 4">
                     </div>
                 </div>
             </div>

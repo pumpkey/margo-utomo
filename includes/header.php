@@ -26,6 +26,7 @@
             </div>
             <nav>
                 <ul>
+                    <li><a href="index.php" class="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">Home</a></li>
                     <li><a href="eco-resort.php" class="<?= basename($_SERVER['PHP_SELF']) == 'eco-resort.php' ? 'active' : '' ?>">Eco Resort</a></li>
                     <li><a href="hillview-resort.php" class="<?= basename($_SERVER['PHP_SELF']) == 'hillview-resort.php' ? 'active' : '' ?>">Hill View Resort</a></li>
                     <li><a href="tour.php" class="<?= basename($_SERVER['PHP_SELF']) == 'tour.php' ? 'active' : '' ?>">Tour</a></li>

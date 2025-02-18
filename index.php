@@ -4,7 +4,7 @@
     <section id="hero">
         <div class="carousel">
             <div class="slide active">
-                <img src="assets/images/carousel1.png" alt="Slide 1">
+                <img src="assets/images/home-hero.png" alt="Slide 1">
                 <div class="overlay"></div>
                 <div class="caption">
                     <h1 data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">Margo Utomo in Javanese means the "Main Gate"</h1>
@@ -12,13 +12,13 @@
                 </div>
             </div>
             <div class="slide">
-                <img src="assets/images/carousel2.jpg" alt="Slide 2">
+                <img src="assets/images/hill-hero.jpg" alt="Slide 2">
                 <div class="overlay"></div>
             </div>
             <div class="slide">
-                <img src="assets/images/carousel3.jpg" alt="Slide 3">
+                <img src="assets/images/eco-hero.jpg" alt="Slide 3">
                 <div class="overlay"></div>
-            </div>
+            </div>            
         </div>        
     </section>
 
@@ -61,7 +61,7 @@
             </h2>
             <div class="resort-wrapper">
                 <div class="resort-item" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
-                    <img src="assets/images/carousel1.png" alt="Eco Resort" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                    <img src="assets/images/eco-resort.jpg" alt="Eco Resort" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                     <div class="resort-content" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                         <h3>Eco Resort</h3>
                         <p>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="resort-item" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1200">
-                    <img src="assets/images/carousel1.png" alt="Hill View Resort" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
+                    <img src="assets/images/hillview-resort.jpeg" alt="Hill View Resort" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
                     <div class="resort-content" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
                         <h3>Hill View Resort</h3>
                         <p>
@@ -96,13 +96,10 @@
             <div class="tour-wrapper">                
                 <div class="tour-slider" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
                     <div class="tour-slide">
-                        <img src="assets/images/carousel1.png" alt="Tour 1">
+                        <img src="assets/images/tour1.png" alt="Tour 1">
                     </div>
                     <div class="tour-slide">
-                        <img src="assets/images/carousel2.jpg" alt="Tour 2">
-                    </div>
-                    <div class="tour-slide">
-                        <img src="assets/images/carousel3.jpg" alt="Tour 3">
+                        <img src="assets/images/tour2.jpg" alt="Tour 2">
                     </div>
                 </div>
                 
@@ -126,21 +123,27 @@
             <div class="product-wrapper"> 
                 <div class="product-slider" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1200">
                     <div class="product-slide" data-aos="fade-up" data-aos-delay="600">
-                        <img src="assets/images/carousel1.png" alt="Coffee">
+                        <img src="assets/images/produk-bakery.jpg" alt="Tom's Bakery">
                         <div class="product-overlay">
-                            <div class="product-name">Coffee</div>
+                            <div class="product-name">Tom's Bakery</div>
                         </div>
                     </div>
                     <div class="product-slide" data-aos="fade-up" data-aos-delay="700">
-                        <img src="assets/images/carousel2.jpg" alt="Milk">
+                        <img src="assets/images/produk-susu.jpg" alt="Melk Bron">
                         <div class="product-overlay">
-                            <div class="product-name">Milk</div>
+                            <div class="product-name">Melk Bron</div>
                         </div>
                     </div>                    
                     <div class="product-slide" data-aos="fade-up" data-aos-delay="800">
-                        <img src="assets/images/carousel3.jpg" alt="Nutmeg Sugar">
+                        <img src="assets/images/produk-nutmeg.jpg" alt="Nutmeg Fruit">
                         <div class="product-overlay">
-                            <div class="product-name">Nutmeg Sugar</div>
+                            <div class="product-name">Nutmeg Fruit</div>
+                        </div>
+                    </div>
+                    <div class="product-slide" data-aos="fade-up" data-aos-delay="800">
+                        <img src="assets/images/produk-coffee.jpg" alt="Coffee">
+                        <div class="product-overlay">
+                            <div class="product-name">Coffee</div>
                         </div>
                     </div>                    
                 </div>
@@ -156,16 +159,16 @@
             <div class="gallery-wrapper" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1200">
                 <div class="gallery-slider">
                     <div class="gallery-row" data-aos="fade-up" data-aos-delay="600">
-                        <img src="assets/images/carousel1.png" alt="Gallery 1">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 2">
-                        <img src="assets/images/carousel1.png" alt="Gallery 3">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 4">
+                        <img src="assets/images/gallery1.jpg" alt="Gallery 1">
+                        <img src="assets/images/gallery2.jpg" alt="Gallery 2">
+                        <img src="assets/images/gallery3.jpg" alt="Gallery 3">
+                        <img src="assets/images/gallery4.jpg" alt="Gallery 4">
                     </div>
                     <div class="gallery-row" data-aos="fade-up" data-aos-delay="800">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 1">
-                        <img src="assets/images/carousel1.png" alt="Gallery 2">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 3">
-                        <img src="assets/images/carousel1.png" alt="Gallery 4">
+                        <img src="assets/images/gallery5.jpg" alt="Gallery 1">
+                        <img src="assets/images/gallery6.jpg" alt="Gallery 2">
+                        <img src="assets/images/gallery7.jpg" alt="Gallery 3">
+                        <img src="assets/images/gallery8.jpg" alt="Gallery 4">
                     </div>
                 </div>
             </div>

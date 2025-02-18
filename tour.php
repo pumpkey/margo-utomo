@@ -3,7 +3,7 @@
 <main>
     <section id="tours-hero">
         <div class="tours-hero-container">
-            <img src="assets/images/carousel1.png" alt="tours">
+            <img src="assets/images/tour-hero.jpg" alt="tours">
             <div class="overlay"></div>
             <div class="tours-hero-text">
                 <h1>The Beauty of East Java</h1>
@@ -43,7 +43,7 @@
                     <div class="swiper-slide">
                         <div class="rooms-wrapper">
                             <div class="room-card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
-                                <img src="assets/images/gallery1.jpg" alt="Superior Twin" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                                <img src="assets/images/tour-sukamade.jpg" alt="Superior Twin" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                                 <h3 style="margin-bottom: 10px;">Sukamade Tour - Meru Betiri National Park</h3>        
                                 
                                 <h4 style="margin-bottom: 5px;">Tour Info</h4>
@@ -84,7 +84,7 @@
                                 </div>
                             </div>                
                             <div class="room-card" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="300">
-                                <img src="assets/images/gallery1.jpg" alt="Superior Double" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
+                                <img src="assets/images/tour-alaspurwo.jpg" style="height: 240px;" alt="Superior Double" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
                                 <h3 style="margin-bottom: 10px;">Alas Purwo Tour - The Jungle</h3>        
     
                                 <h4 style="margin-bottom: 5px;">Tour Info</h4>
@@ -140,7 +140,7 @@
                     <div class="swiper-slide">
                         <div class="rooms-wrapper">
                             <div class="room-card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
-                                <img src="assets/images/gallery1.jpg" alt="Village Tour by Jeep" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                                <img src="assets/images/tour-kalibaru.jpg" alt="Village Tour by Jeep" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                                 <h3 style="margin-bottom: 10px;">Village Tour by Jeep – The Kalibaru Village</h3>        
                                 
                                 <h4 style="margin-bottom: 5px;">Tour Info</h4>
@@ -189,7 +189,7 @@
                                 </div>
                             </div>
                             <div class="room-card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
-                                <img src="assets/images/gallery1.jpg" alt="Amargo Tour – The Plantations" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                                <img src="assets/images/tour-amargo.jpg" alt="Amargo Tour – The Plantations" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                                 <h3 style="margin-bottom: 10px;">Amargo Tour – The Plantations</h3>        
                                 
                                 <h4 style="margin-bottom: 5px;">Tour Info</h4>
@@ -250,7 +250,7 @@
                     <div class="swiper-slide">
                         <div class="rooms-wrapper">
                             <div class="room-card" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100">
-                                <img src="assets/images/gallery1.jpg" alt="Aroma Tour – The Spice Gardens" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                                <img src="assets/images/tour-aroma.jpg" alt="Aroma Tour – The Spice Gardens" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                                 <h3 style="margin-bottom: 10px;">Aroma Tour – The Spice Gardens</h3>        
                                 
                                 <h4 style="margin-bottom: 5px;">Tour Info</h4>
@@ -291,7 +291,7 @@
                                 </div>
                             </div>
                             <div class="room-card" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100">
-                                <img src="assets/images/gallery1.jpg" alt="Ijen Crater Tour – The Blue Flame" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                                <img src="assets/images/tour-ijen.webp" style="height: 245px;" alt="Ijen Crater Tour – The Blue Flame" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                                 <h3 style="margin-bottom: 10px;">Ijen Crater Tour – The Blue Flame</h3>        
                                 
                                 <h4 style="margin-bottom: 5px;">Tour Info</h4>
@@ -345,7 +345,7 @@
                     <div class="swiper-slide">
                         <div class="rooms-wrapper">
                             <div class="room-card" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100">
-                                <img src="assets/images/gallery1.jpg" alt="Baluran National Park Tour – Bama Beach & Savana Bekol" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                                <img src="assets/images/tour-baluran.jpg" alt="Baluran National Park Tour – Bama Beach & Savana Bekol" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
                                 <h3 style="margin-bottom: 10px;">Baluran National Park Tour – Bama Beach & Savana Bekol</h3>        
 
                                 <h4 style="margin-bottom: 5px;">Tour Info</h4>
@@ -405,16 +405,16 @@
             <div class="gallery-wrapper" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1200">
                 <div class="gallery-slider">
                     <div class="gallery-row" data-aos="fade-up" data-aos-delay="600">
-                        <img src="assets/images/carousel1.png" alt="Gallery 1">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 2">
-                        <img src="assets/images/carousel1.png" alt="Gallery 3">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 4">
+                        <img src="assets/images/tour-amargo.jpg" alt="Gallery 1">
+                        <img src="assets/images/tour2.jpg" alt="Gallery 2">
+                        <img src="assets/images/tour-alaspurwo.jpg" alt="Gallery 3">
+                        <img src="assets/images/tour-baluran.jpg" alt="Gallery 4">
                     </div>
-                    <div class="gallery-row" data-aos="fade-up" data-aos-delay="800">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 1">
-                        <img src="assets/images/carousel1.png" alt="Gallery 2">
-                        <img src="assets/images/carousel2.jpg" alt="Gallery 3">
-                        <img src="assets/images/carousel1.png" alt="Gallery 4">
+                    <div class="gallery-row" data-aos="fade-up" data-aos-delay="800">                        
+                        <img src="assets/images/tour1.png" alt="Gallery 1">
+                        <img src="assets/images/tour-sukamade.jpg" alt="Gallery 2">
+                        <img src="assets/images/tour-kalibaru.jpg" alt="Gallery 3">
+                        <img src="assets/images/tour-aroma.jpg" alt="Gallery 4">
                     </div>
                 </div>
             </div>
