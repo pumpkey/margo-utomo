@@ -17,22 +17,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.php">
-                    <img src="/margo-utomo/assets/images/logo.png" alt="Logo">
-                </a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.php" class="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">Home</a></li>
-                    <li><a href="eco-resort.php" class="<?= basename($_SERVER['PHP_SELF']) == 'eco-resort.php' ? 'active' : '' ?>">Eco Resort</a></li>
-                    <li><a href="hillview-resort.php" class="<?= basename($_SERVER['PHP_SELF']) == 'hillview-resort.php' ? 'active' : '' ?>">Hill View Resort</a></li>
-                    <li><a href="tour.php" class="<?= basename($_SERVER['PHP_SELF']) == 'tour.php' ? 'active' : '' ?>">Tour</a></li>
-                    <li><a href="gallery.php" class="<?= basename($_SERVER['PHP_SELF']) == 'gallery.php' ? 'active' : '' ?>">Gallery</a></li>
-                </ul>
-            </nav>
-            <button class="cta">Book Now</button>
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.php">
+                <img src="/margo-utomo/assets/images/logo.png" alt="Logo">
+            </a>
         </div>
-    </header>
+        <button class="menu-toggle" id="menuToggle">&#9776;</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.php" class="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">Home</a></li>
+                <li><a href="eco-resort.php" class="<?= basename($_SERVER['PHP_SELF']) == 'eco-resort.php' ? 'active' : '' ?>">Eco Resort</a></li>
+                <li><a href="hillview-resort.php" class="<?= basename($_SERVER['PHP_SELF']) == 'hillview-resort.php' ? 'active' : '' ?>">Hill View Resort</a></li>
+                <li><a href="tour.php" class="<?= basename($_SERVER['PHP_SELF']) == 'tour.php' ? 'active' : '' ?>">Tour</a></li>
+                <li><a href="gallery.php" class="<?= basename($_SERVER['PHP_SELF']) == 'gallery.php' ? 'active' : '' ?>">Gallery</a></li>
+                <li><button class="cta">Book Now</button></li>
+            </ul>
+        </nav>
+    </div>
+</header>

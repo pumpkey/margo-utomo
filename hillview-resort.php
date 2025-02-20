@@ -11,53 +11,55 @@
         </div>
     </section>
 
-    <section id="hill-description">
+    <section id="hill-description">        
         <div class="hill-container">
-            <div class="hill-text" data-aos="fade-right" data-aos-duration="1000">
-                <h2>Hill View Resort</h2>
-                <p>
-                    Be amused by the panoramic view out to the Kalibaru River below, with a lush background of deep-green plantation crops and Menyan Hill beyond. Enjoy the sounds of nature, the river and birds while relaxing by the pool, and relish in the light breezes that come from the hill. You might also like to spend time hiking through the hills or visiting the surrounding village.
-                </p>
-            </div>
-            <div class="hill-facilities" data-aos="fade-left" data-aos-duration="1000">
-                <div class="facility-card">
-                    <h3><span class="underline">Facilities</span> of the Hill View Resort</h3>
-                    <div class="swiper facility-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <ul>
-                                    <li><i class="fas fa-bed"></i> 10 Standard rooms with terrace and seating facilities</li>
-                                    <li><i class="fas fa-bed"></i> 10 Superior rooms with terrace and seating facilities</li>
-                                    <li><i class="fas fa-bed"></i> 10 Deluxe rooms with terrace and seating facilities</li>
-                                    <li><i class="fas fa-shower"></i> Ensuite bathroom with hot and cold shower</li>
-                                    <li><i class="fas fa-fan"></i> Ceiling fan cooling (Standard rooms)</li>
-                                    <li><i class="fas fa-snowflake"></i> Air conditioning (Superior and Deluxe rooms)</li>
-                                </ul>
+            <div class="hill-wrapper">
+                <div class="hill-text" data-aos="fade-right" data-aos-duration="1000">
+                    <h2>Hill View Resort</h2>
+                    <p>
+                        Be amused by the panoramic view out to the Kalibaru River below, with a lush background of deep-green plantation crops and Menyan Hill beyond. Enjoy the sounds of nature, the river and birds while relaxing by the pool, and relish in the light breezes that come from the hill. You might also like to spend time hiking through the hills or visiting the surrounding village.
+                    </p>
+                </div>
+                <div class="hill-facilities" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="facility-card">
+                        <h3><span class="underline">Facilities</span> of the Hill View Resort</h3>
+                        <div class="swiper facility-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <ul>
+                                        <li><i class="fas fa-bed"></i> 10 Standard rooms with terrace and seating facilities</li>
+                                        <li><i class="fas fa-bed"></i> 10 Superior rooms with terrace and seating facilities</li>
+                                        <li><i class="fas fa-bed"></i> 10 Deluxe rooms with terrace and seating facilities</li>
+                                        <li><i class="fas fa-shower"></i> Ensuite bathroom with hot and cold shower</li>
+                                        <li><i class="fas fa-fan"></i> Ceiling fan cooling (Standard rooms)</li>
+                                        <li><i class="fas fa-snowflake"></i> Air conditioning (Superior and Deluxe rooms)</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul>
+                                        <li><i class="fas fa-user-md"></i> Doctor on-call</li>
+                                        <li><i class="fas fa-wifi"></i> Free Wi-Fi in public areas and restaurant</li>
+                                        <li><i class="fas fa-shield-alt"></i> 24-hour security</li>
+                                        <li><i class="fas fa-spa"></i> Massage service</li>
+                                        <li><i class="fas fa-tshirt"></i> Laundry service</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul>
+                                        <li><i class="fas fa-utensils"></i> Restaurant</li>
+                                        <li><i class="fas fa-car"></i> Parking area</li>
+                                        <li><i class="fas fa-bolt"></i> 24-hour backup generator</li>
+                                        <li><i class="fas fa-swimming-pool"></i> Swimming pool for adults and children</li>
+                                        <li><i class="fas fa-child"></i> Sizeable children playground</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="swiper-slide">
-                                <ul>
-                                    <li><i class="fas fa-user-md"></i> Doctor on-call</li>
-                                    <li><i class="fas fa-wifi"></i> Free Wi-Fi in public areas and restaurant</li>
-                                    <li><i class="fas fa-shield-alt"></i> 24-hour security</li>
-                                    <li><i class="fas fa-spa"></i> Massage service</li>
-                                    <li><i class="fas fa-tshirt"></i> Laundry service</li>
-                                </ul>
-                            </div>
-                            <div class="swiper-slide">
-                                <ul>
-                                    <li><i class="fas fa-utensils"></i> Restaurant</li>
-                                    <li><i class="fas fa-car"></i> Parking area</li>
-                                    <li><i class="fas fa-bolt"></i> 24-hour backup generator</li>
-                                    <li><i class="fas fa-swimming-pool"></i> Swimming pool for adults and children</li>
-                                    <li><i class="fas fa-child"></i> Sizeable children playground</li>
-                                </ul>
-                            </div>
+                            <div class="swiper-button-prev" style="color: #014851;"></div>
+                            <div class="swiper-button-next" style="color: #014851;"></div>
                         </div>
-                        <div class="swiper-button-prev" style="color: #014851;"></div>
-                        <div class="swiper-button-next" style="color: #014851;"></div>
                     </div>
                 </div>
-            </div>
+            </div>            
         </div>
     </section>
 

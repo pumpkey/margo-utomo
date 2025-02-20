@@ -1,3 +1,19 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    menuToggle.addEventListener('click', function (event) {
+        navMenu.classList.toggle('active');
+        event.stopPropagation();
+    });
+
+    document.addEventListener('click', function (event) {        
+        if (!navMenu.contains(event.target) && !menuToggle.contains(event.target)) {
+            navMenu.classList.remove('active');
+        }
+    });
+});
+
 let currentIndex = 0;
 const slides = document.querySelectorAll(".slide");
 const carousel = document.querySelector(".carousel");

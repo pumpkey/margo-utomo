@@ -23,7 +23,18 @@ body {
     margin: 0;
     font-family: 'Bio Sans', sans-serif;
     background: #E6E2DB;
+    color: #014851;    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 97%;
+    z-index: 1000;
+    background: #E6E2DB;
     color: #014851;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
 }
 
 .container {
@@ -32,21 +43,25 @@ body {
     align-items: center;
     padding: 20px;
     max-width: 1200px;
-    margin: auto;
+    margin: auto; 
+    position: relative;   
 }
 
-header {
-    position: sticky;
-    top: 0;
-    width: 100%;    
-    z-index: 1000;
-    background: #E6E2DB;
-    color: #014851;    
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-}
-
-header .logo img {
+.logo img {
     height: 40px;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #014851;
+}
+
+nav {
+    display: flex;
 }
 
 nav ul {
@@ -57,6 +72,11 @@ nav ul {
     margin: 0;
 }
 
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
 nav ul li a {
     color: #014851;
     text-decoration: none;
@@ -64,14 +84,9 @@ nav ul li a {
     transition: 0.3s ease-in-out;
 }
 
-nav ul li a:hover {
-    color: #7C6845;
-    text-decoration: none;    
-}
-
+nav ul li a:hover,
 nav ul li a.active {
     color: #7C6845;
-    text-decoration: none;    
 }
 
 .cta {
@@ -87,7 +102,64 @@ nav ul li a.active {
 }
 
 .cta:hover {
-    background: #7C6845;    
+    background: #7C6845;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        justify-content: center;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #E6E2DB;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    nav ul li .cta {
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+        text-align: center;
+    }
+    
+    nav.active {
+        display: block;
+        animation: fadeIn 0.3s ease-in-out;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .carousel {
@@ -172,6 +244,22 @@ nav ul li a.active {
     color: white;
 }
 
+@media (max-width: 768px) {
+    .carousel {
+        height: 40vh;
+    }
+    .caption {
+        top: 20%;
+        left: 50%;        
+    }
+    .caption h1 {
+        font-size: 20px;
+    }
+    .caption p {
+        font-size: 10px;
+    }
+}
+
 #tagline {
     text-align: center;
     padding-bottom: 30px;
@@ -219,7 +307,7 @@ nav ul li a.active {
     justify-content: center;
     align-items: center;
     background: #E6E2DB;
-    padding: 0 75px 0 75px;
+    padding: 0 50px 0 50px;
     box-sizing: border-box;
 }
 
@@ -274,10 +362,20 @@ h2 {
     color: #E6E2DB;
 }
 
+@media (max-width: 768px) {
+    .story-container {
+        max-width: 600px;
+    }
+}
+
 #resort {
     text-align: center;
     padding: 20px 20px 60px 20px;
     background: #f9f9f9;
+
+    background-image: url("/margo-utomo/assets/patterns/pattern1.png");
+    background-repeat: repeat;
+    background-position: center;
 }
 
 .resort-container {
@@ -290,6 +388,7 @@ h2 {
     justify-content: center;
     gap: 40px;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 .resort-item {
@@ -301,7 +400,7 @@ h2 {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    width: 48%;
+    width: 48%;    
 }
 
 .resort-item img {
@@ -344,6 +443,12 @@ h2 {
 
 .discover-btn:hover {
     background: #7C6845;
+}
+
+@media (max-width: 768px) {
+    .resort-container {
+        max-width: 700px;
+    }
 }
 
 #tour {
@@ -437,10 +542,20 @@ h2 {
     background: #7C6845;
 }
 
+@media (max-width: 768px) {
+    .tour-container {
+        max-width: 700px;
+    }
+}
+
 #product {
     text-align: center;
     padding: 60px 20px;
-    background: #f9f9f9;
+    background: #f9f9f9;    
+
+    background-image: url("/margo-utomo/assets/patterns/pattern2.png");
+    background-repeat: repeat;
+    background-position: center top;
 }
 
 .product-container {
@@ -556,6 +671,10 @@ h2 {
     text-align: center;
     padding: 60px 20px;
     background: #f9f9f9;
+
+    background-image: url("/margo-utomo/assets/patterns/pattern4.png");
+    background-repeat: repeat;
+    background-position: center bottom;
 }
 
 .visit-container {
@@ -619,6 +738,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    background-image: url("/margo-utomo/assets/patterns/pattern5.png");
+    background-repeat: repeat;
+    background-position: center bottom;
 }
 
 .footer-content {

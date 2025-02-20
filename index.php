@@ -34,10 +34,12 @@
     </section>
 
     <section id="video-profile" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
-        <video controls autoplay muted loop playsinline data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200">
-            <source src="assets/videos/video-profile.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <div class="video-container">
+            <video controls autoplay muted loop playsinline data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200">
+                <source src="assets/videos/video-profile.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>        
     </section>
 
     <section id="story" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">

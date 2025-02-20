@@ -3,6 +3,10 @@
     padding: 60px 20px;
     background: #f9f9f9;
     overflow: hidden;
+
+    background-image: url("/margo-utomo/assets/patterns/pattern1.png");
+    background-repeat: repeat;
+    background-position: center;
 }
 
 .galleries-container {
